@@ -1,0 +1,10 @@
+.featuresSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}

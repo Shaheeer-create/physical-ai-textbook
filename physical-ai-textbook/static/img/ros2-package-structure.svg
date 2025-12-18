@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-02-20)"
+   sodipodi:docname="ros2-package-structure.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrowhead"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrowhead"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path851" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ROS 2 Package Structure Diagram</dc:title>
+        <dc:description>Diagram showing the file structure of a ROS 2 package with directories for source code, launch files, configuration, and tests</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Background -->
+    <rect
+       style="fill:#fafafa;stroke:none;stroke-width:1;fill-opacity:1"
+       id="rect833"
+       width="800"
+       height="600"
+       x="0"
+       y="0" />
+
+    <!-- Package Root Directory -->
+    <rect
+       style="fill:#e6f3ff;stroke:#0066cc;stroke-width:2;fill-opacity:0.5"
+       id="rect835"
+       width="250"
+       height="500"
+       x="50"
+       y="50" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="60"
+       y="80"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="60"
+         y="80">my_robot_package/</tspan></text>
+
+    <!-- Source Code Directory -->
+    <rect
+       style="fill:#e6ffe6;stroke:#00cc66;stroke-width:2;fill-opacity:0.5"
+       id="rect841"
+       width="200"
+       height="120"
+       x="75"
+       y="100" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="85"
+       y="125"
+       id="text845"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="85"
+         y="125">src/</tspan></text>
+    
+    <!-- Source Files -->
+    <rect
+       style="fill:#f0fff0;stroke:#009966;stroke-width:1;fill-opacity:0.5"
+       id="rect847"
+       width="160"
+       height="30"
+       x="90"
+       y="140" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="100"
+       y="160"
+       id="text851"><tspan
+         sodipodi:role="line"
+         id="tspan849"
+         x="100"
+         y="160">robot_controller.py</tspan></text>
+    
+    <rect
+       style="fill:#f0fff0;stroke:#009966;stroke-width:1;fill-opacity:0.5"
+       id="rect853"
+       width="160"
+       height="30"
+       x="90"
+       y="180" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="100"
+       y="200"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="100"
+         y="200">sensor_processor.py</tspan></text>
+
+    <!-- Launch Directory -->
+    <rect
+       style="fill:#ffe6f0;stroke:#cc0066;stroke-width:2;fill-opacity:0.5"
+       id="rect859"
+       width="200"
+       height="100"
+       x="75"
+       y="250" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="85"
+       y="275"
+       id="text863"><tspan
+         sodipodi:role="line"
+         id="tspan861"
+         x="85"
+         y="275">launch/</tspan></text>
+    
+    <!-- Launch Files -->
+    <rect
+       style="fill:#fff0f5;stroke:#99004d;stroke-width:1;fill-opacity:0.5"
+       id="rect865"
+       width="160"
+       height="30"
+       x="90"
+       y="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="100"
+       y="320"
+       id="text869"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="100"
+         y="320">robot_system.launch.py</tspan></text>
+
+    <!-- Config Directory -->
+    <rect
+       style="fill:#f0e6ff;stroke:#6600cc;stroke-width:2;fill-opacity:0.5"
+       id="rect871"
+       width="200"
+       height="80"
+       x="75"
+       y="380" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="85"
+       y="405"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="85"
+         y="405">config/</tspan></text>
+    
+    <!-- Config Files -->
+    <rect
+       style="fill:#f5f0ff;stroke:#4d0099;stroke-width:1;fill-opacity:0.5"
+       id="rect877"
+       width="160"
+       height="30"
+       x="90"
+       y="430" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="100"
+       y="450"
+       id="text881"><tspan
+         sodipodi:role="line"
+         id="tspan879"
+         x="100"
+         y="450">params.yaml</tspan></text>
+
+    <!-- Tests Directory -->
+    <rect
+       style="fill:#ffffe6;stroke:#cccc00;stroke-width:2;fill-opacity:0.5"
+       id="rect883"
+       width="200"
+       height="100"
+       x="75"
+       y="490" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="85"
+       y="515"
+       id="text887"><tspan
+         sodipodi:role="line"
+         id="tspan885"
+         x="85"
+         y="515">test/</tspan></text>
+    
+    <!-- Test Files -->
+    <rect
+       style="fill:#fffff0;stroke:#999900;stroke-width:1;fill-opacity:0.5"
+       id="rect889"
+       width="160"
+       height="30"
+       x="90"
+       y="540" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="100"
+       y="560"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="100"
+         y="560">test_robot_controller.py</tspan></text>
+
+    <!-- Build System Files -->
+    <rect
+       style="fill:#f0f0ff;stroke:#6666cc;stroke-width:2;fill-opacity:0.5"
+       id="rect895"
+       width="300"
+       height="150"
+       x="400"
+       y="50" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="410"
+       y="80"
+       id="text899"><tspan
+         sodipodi:role="line"
+         id="tspan897"
+         x="410"
+         y="80">Build System Files</tspan></text>
+    
+    <rect
+       style="fill:#f5f5ff;stroke:#4d4dcc;stroke-width:1;fill-opacity:0.5"
+       id="rect901"
+       width="260"
+       height="30"
+       x="420"
+       y="100" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="120"
+       id="text905"><tspan
+         sodipodi:role="line"
+         id="tspan903"
+         x="430"
+         y="120">CMakeLists.txt (or setup.py for Python)</tspan></text>
+    
+    <rect
+       style="fill:#f5f5ff;stroke:#4d4dcc;stroke-width:1;fill-opacity:0.5"
+       id="rect907"
+       width="260"
+       height="30"
+       x="420"
+       y="140" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="160"
+       id="text911"><tspan
+         sodipodi:role="line"
+         id="tspan909"
+         x="430"
+         y="160">package.xml</tspan></text>
+    
+    <rect
+       style="fill:#f5f5ff;stroke:#4d4dcc;stroke-width:1;fill-opacity:0.5"
+       id="rect913"
+       width="260"
+       height="30"
+       x="420"
+       y="180" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="200"
+       id="text917"><tspan
+         sodipodi:role="line"
+         id="tspan915"
+         x="430"
+         y="200">setup.cfg</tspan></text>
+
+    <!-- Package Resources -->
+    <rect
+       style="fill:#e6f9ff;stroke:#0099cc;stroke-width:2;fill-opacity:0.5"
+       id="rect919"
+       width="300"
+       height="200"
+       x="400"
+       y="230" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="410"
+       y="260"
+       id="text923"><tspan
+         sodipodi:role="line"
+         id="tspan921"
+         x="410"
+         y="260">Package Resources</tspan></text>
+    
+    <rect
+       style="fill:#f0fcff;stroke:#0077cc;stroke-width:1;fill-opacity:0.5"
+       id="rect925"
+       width="260"
+       height="30"
+       x="420"
+       y="280" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="300"
+       id="text929"><tspan
+         sodipodi:role="line"
+         id="tspan927"
+         x="430"
+         y="300">resource/my_robot_package</tspan></text>
+    
+    <rect
+       style="fill:#f0fcff;stroke:#0077cc;stroke-width:1;fill-opacity:0.5"
+       id="rect931"
+       width="260"
+       height="30"
+       x="420"
+       y="320" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="340"
+       id="text935"><tspan
+         sodipodi:role="line"
+         id="tspan933"
+         x="430"
+         y="340">README.md</tspan></text>
+    
+    <rect
+       style="fill:#f0fcff;stroke:#0077cc;stroke-width:1;fill-opacity:0.5"
+       id="rect937"
+       width="260"
+       height="30"
+       x="420"
+       y="360" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="380"
+       id="text941"><tspan
+         sodipodi:role="line"
+         id="tspan939"
+         x="430"
+         y="380">CHANGELOG.rst</tspan></text>
+    
+    <rect
+       style="fill:#f0fcff;stroke:#0077cc;stroke-width:1;fill-opacity:0.5"
+       id="rect943"
+       width="260"
+       height="30"
+       x="420"
+       y="400" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="420"
+       id="text947"><tspan
+         sodipodi:role="line"
+         id="tspan945"
+         x="430"
+         y="420">LICENSE</tspan></text>
+
+    <!-- Dependencies Connections -->
+    <path
+       style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 300,300 C 350,250 370,200 400,150"
+       id="path949"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="310"
+       y="200"
+       id="text953"><tspan
+         sodipodi:role="line"
+         id="tspan951"
+         x="310"
+         y="200">depends on</tspan></text>
+
+    <!-- Data Flow Connection -->
+    <path
+       style="fill:none;stroke:#0099cc;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 200,220 C 250,300 270,350 300,450"
+       id="path955"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="250"
+       y="300"
+       id="text959"><tspan
+         sodipodi:role="line"
+         id="tspan957"
+         x="250"
+         y="300">data flow</tspan></text>
+
+    <!-- Dependency Connection 2 -->
+    <path
+       style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 300,450 C 350,420 370,400 400,350"
+       id="path961"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="320"
+       y="420"
+       id="text965"><tspan
+         sodipodi:role="line"
+         id="tspan963"
+         x="320"
+         y="420">uses</tspan></text>
+
+    <!-- Legend -->
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;fill-opacity:0.8"
+       id="rect967"
+       width="250"
+       height="120"
+       x="425"
+       y="450" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="435"
+       y="470"
+       id="text971"><tspan
+         sodipodi:role="line"
+         id="tspan969"
+         x="435"
+         y="470">Directory Types:</tspan><tspan
+         sodipodi:role="line"
+         x="435"
+         y="487.5"
+         id="tspan971"><tspan
+           style="fill:#e6ffe6"
+           id="tspan973">●</tspan> Source (src/)</tspan><tspan
+         sodipodi:role="line"
+         x="435"
+         y="505"
+         id="tspan975"><tspan
+           style="fill:#ffe6f0"
+           id="tspan977">●</tspan> Launch (launch/)</tspan><tspan
+         sodipodi:role="line"
+         x="435"
+         y="522.5"
+         id="tspan979"><tspan
+           style="fill:#f0e6ff"
+           id="tspan981">●</tspan> Config (config/)</tspan><tspan
+         sodipodi:role="line"
+         x="435"
+         y="540"
+         id="tspan983"><tspan
+           style="fill:#ffffe6"
+           id="tspan985">●</tspan> Tests (test/)</tspan></text>
+  </g>
+</svg>
