@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-02-20)"
+   sodipodi:docname="robot-sensorium.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrowhead"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrowhead"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path851" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowheadReverse"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="ArrowheadReverse"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path854" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Robot Sensorium Diagram</dc:title>
+        <dc:description>Diagram showing different types of sensors on a humanoid robot: cameras for vision, LiDAR for range sensing, IMU for orientation, force/torque sensors in joints, and tactile sensors on fingertips</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Background -->
+    <rect
+       style="fill:#f8f8f8;stroke:#cccccc;stroke-width:1;fill-opacity:1"
+       id="rect833"
+       width="800"
+       height="600"
+       x="0"
+       y="0" />
+
+    <!-- Humanoid Robot Silhouette -->
+    <ellipse
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5"
+       id="ellipse835"
+       cx="400"
+       cy="150"
+       rx="50"
+       ry="60" /> <!-- Head -->
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5"
+       id="rect837"
+       width="80"
+       height="200"
+       x="360"
+       y="200" /> <!-- Torso -->
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5;stroke-linecap:round;stroke-linejoin:round"
+       d="M 360,250 C 320,250 320,300 360,300 C 400,300 400,250 360,250 z"
+       id="path839" /> <!-- Left arm -->
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5;stroke-linecap:round;stroke-linejoin:round"
+       d="M 440,250 C 480,250 480,300 440,300 C 400,300 400,250 440,250 z"
+       id="path841" /> <!-- Right arm -->
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5;stroke-linecap:round;stroke-linejoin:round"
+       d="M 380,400 C 380,460 380,540 380,540 L 420,540 C 420,540 420,460 420,400 Z"
+       id="path843" /> <!-- Left leg -->
+    <path
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:2;fill-opacity:0.5;stroke-linecap:round;stroke-linejoin:round"
+       d="M 380,400 C 380,460 380,540 380,540 L 420,540 C 420,540 420,460 420,400 Z"
+       id="path845"
+       transform="translate(40,0)" /> <!-- Right leg -->
+
+    <!-- Camera Sensors -->
+    <circle
+       style="fill:#3399ff;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle847"
+       cx="385"
+       cy="135"
+       r="8" /> <!-- Left eye camera -->
+    <circle
+       style="fill:#3399ff;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle849"
+       cx="415"
+       cy="135"
+       r="8" /> <!-- Right eye camera -->
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="370"
+       y="120"
+       id="text851"><tspan
+         sodipodi:role="line"
+         id="tspan849"
+         x="370"
+         y="120">Cameras</tspan><tspan
+         sodipodi:role="line"
+         x="370"
+         y="135"
+         id="tspan851">(Vision)</tspan></text>
+
+    <!-- LiDAR Sensor -->
+    <circle
+       style="fill:#ff9933;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle853"
+       cx="400"
+       cy="180"
+       r="10" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="415"
+       y="175"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="415"
+         y="175">LiDAR</tspan><tspan
+         sodipodi:role="line"
+         x="415"
+         y="190"
+         id="tspan857">(Range)</tspan></text>
+
+    <!-- IMU Sensor -->
+    <rect
+       style="fill:#99cc66;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="rect859"
+       width="20"
+       height="10"
+       x="390"
+       y="220" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="420"
+       y="230"
+       id="text863"><tspan
+         sodipodi:role="line"
+         id="tspan861"
+         x="420"
+         y="230">IMU</tspan><tspan
+         sodipodi:role="line"
+         x="420"
+         y="245"
+         id="tspan863">(Orientation)</tspan></text>
+
+    <!-- Joint Force/Torque Sensors -->
+    <circle
+       style="fill:#cc6699;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle865"
+       cx="340"
+       cy="270"
+       r="6" />
+    <circle
+       style="fill:#cc6699;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle867"
+       cx="460"
+       cy="270"
+       r="6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="300"
+       y="285"
+       id="text871"><tspan
+         sodipodi:role="line"
+         id="tspan869"
+         x="300"
+         y="285">Force/Torque</tspan><tspan
+         sodipodi:role="line"
+         x="300"
+         y="300"
+         id="tspan871">(Joints)</tspan></text>
+
+    <!-- Tactile Sensors on Fingertips -->
+    <circle
+       style="fill:#ff6666;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle873"
+       cx="300"
+       cy="310"
+       r="4" />
+    <circle
+       style="fill:#ff6666;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle875"
+       cx="310"
+       cy="305"
+       r="4" />
+    <circle
+       style="fill:#ff6666;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle877"
+       cx="490"
+       cy="310"
+       r="4" />
+    <circle
+       style="fill:#ff6666;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle879"
+       cx="500"
+       cy="305"
+       r="4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="290"
+       y="330"
+       id="text883"><tspan
+         sodipodi:role="line"
+         id="tspan881"
+         x="290"
+         y="330">Tactile</tspan><tspan
+         sodipodi:role="line"
+         x="290"
+         y="345"
+         id="tspan883">(Fingertips)</tspan></text>
+
+    <!-- Sonar/Rangefinder Sensors -->
+    <circle
+       style="fill:#66ccff;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle885"
+       cx="370"
+       cy="420"
+       r="5" />
+    <circle
+       style="fill:#66ccff;stroke:#000000;stroke-width:2;fill-opacity:1"
+       id="circle887"
+       cx="430"
+       cy="420"
+       r="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="360"
+       y="440"
+       id="text891"><tspan
+         sodipodi:role="line"
+         id="tspan889"
+         x="360"
+         y="440">Sonar</tspan><tspan
+         sodipodi:role="line"
+         x="360"
+         y="455"
+         id="tspan891">(Proximity)</tspan></text>
+
+    <!-- Sensor Data Flow Arrows -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="m 420,145 c 50,-20 50,-20 80,-50"
+       id="path893" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="480"
+       y="80"
+       id="text897"><tspan
+         sodipodi:role="line"
+         id="tspan895"
+         x="480"
+         y="80">Visual Data</tspan></text>
+
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="m 410,190 c 40,0 50,0 80,-30"
+       id="path899" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="470"
+       y="150"
+       id="text903"><tspan
+         sodipodi:role="line"
+         id="tspan901"
+         x="470"
+         y="150">Range Data</tspan></text>
+
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="m 400,230 c 0,30 0,50 0,80"
+       id="path905" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="410"
+       y="270"
+       id="text909"><tspan
+         sodipodi:role="line"
+         id="tspan907"
+         x="410"
+         y="270">Orientation</tspan><tspan
+         sodipodi:role="line"
+         x="410"
+         y="285"
+         id="tspan909">Data</tspan></text>
+
+    <!-- Data Processing Center -->
+    <ellipse
+       style="fill:#ffffcc;stroke:#999999;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;fill-opacity:1"
+       id="path911"
+       cx="600"
+       cy="200"
+       rx="120"
+       ry="100" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="540"
+       y="180"
+       id="text915"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         x="540"
+         y="180">Sensor</tspan><tspan
+         sodipodi:role="line"
+         x="540"
+         y="200"
+         id="tspan915">Fusion</tspan><tspan
+         sodipodi:role="line"
+         x="540"
+         y="220"
+         id="tspan917">&amp; Processing</tspan></text>
+
+    <!-- Arrows from all sensors to processing center -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 400,180 C 450,150 500,150 570,180"
+       id="path919" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 390,220 C 450,200 500,180 570,190"
+       id="path921" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 340,270 C 400,250 480,220 570,200"
+       id="path923" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 300,310 C 350,280 450,230 570,210"
+       id="path925" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 370,420 C 400,350 450,250 570,220"
+       id="path927" />
+
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="500"
+       y="120"
+       id="text931"><tspan
+         sodipodi:role="line"
+         id="tspan929"
+         x="500"
+         y="120">Data Flows</tspan></text>
+
+    <!-- Legend -->
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;fill-opacity:0.8"
+       id="rect933"
+       width="150"
+       height="140"
+       x="620"
+       y="350" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="630"
+       y="370"
+       id="text937"><tspan
+         sodipodi:role="line"
+         id="tspan935"
+         x="630"
+         y="370">Sensor Types:</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="387.5"
+         id="tspan939"><tspan
+           style="fill:#3399ff"
+           id="tspan941">●</tspan> Vision (Cameras)</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="405"
+         id="tspan943"><tspan
+           style="fill:#ff9933"
+           id="tspan945">●</tspan> Range (LiDAR)</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="422.5"
+         id="tspan947"><tspan
+           style="fill:#99cc66"
+           id="tspan949">●</tspan> Orientation (IMU)</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="440"
+         id="tspan951"><tspan
+           style="fill:#cc6699"
+           id="tspan953">●</tspan> Force/Torque</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="457.5"
+         id="tspan955"><tspan
+           style="fill:#ff6666"
+           id="tspan957">●</tspan> Tactile</tspan><tspan
+         sodipodi:role="line"
+         x="630"
+         y="475"
+         id="tspan959"><tspan
+           style="fill:#66ccff"
+           id="tspan961">●</tspan> Proximity (Sonar)</tspan></text>
+  </g>
+</svg>

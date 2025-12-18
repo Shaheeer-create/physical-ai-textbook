@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-02-20)"
+   sodipodi:docname="ros2-architecture.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ROS 2 Architecture Diagram</dc:title>
+        <dc:description>ROS 2 architecture diagram showing nodes communicating through topics, services, and actions, with DDS middleware managing the communication</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Background -->
+    <rect
+       style="fill:#f8f8f8;stroke:none;stroke-width:1;fill-opacity:1"
+       id="rect833"
+       width="800"
+       height="600"
+       x="0"
+       y="0" />
+
+    <!-- DDS Middleware (Central) -->
+    <ellipse
+       style="fill:#e6f3ff;stroke:#0066cc;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       id="path835"
+       cx="400"
+       cy="300"
+       rx="150"
+       ry="120" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="350"
+       y="305"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="350"
+         y="305">DDS</tspan><tspan
+         sodipodi:role="line"
+         x="350"
+         y="325"
+         id="tspan839">Middleware</tspan></text>
+
+    <!-- Robot Controller Node -->
+    <rect
+       style="fill:#fff0e6;stroke:#cc6600;stroke-width:2;fill-opacity:1"
+       id="rect841"
+       width="120"
+       height="80"
+       x="150"
+       y="150" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="165"
+       y="180"
+       id="text845"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="165"
+         y="180">Robot</tspan><tspan
+         sodipodi:role="line"
+         x="165"
+         y="197.5"
+         id="tspan845">Controller</tspan></text>
+
+    <!-- Perception Node -->
+    <rect
+       style="fill:#f0ffe6;stroke:#66cc00;stroke-width:2;fill-opacity:1"
+       id="rect847"
+       width="120"
+       height="80"
+       x="150"
+       y="370" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="170"
+       y="400"
+       id="text851"><tspan
+         sodipodi:role="line"
+         id="tspan849"
+         x="170"
+         y="400">Perception</tspan><tspan
+         sodipodi:role="line"
+         x="170"
+         y="417.5"
+         id="tspan851">Node</tspan></text>
+
+    <!-- Navigation Node -->
+    <rect
+       style="fill:#e6f0ff;stroke:#0066cc;stroke-width:2;fill-opacity:1"
+       id="rect853"
+       width="120"
+       height="80"
+       x="530"
+       y="150" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="550"
+       y="180"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="550"
+         y="180">Navigation</tspan><tspan
+         sodipodi:role="line"
+         x="550"
+         y="197.5"
+         id="tspan857">Node</tspan></text>
+
+    <!-- Manipulation Node -->
+    <rect
+       style="fill:#ffe6f0;stroke:#cc0066;stroke-width:2;fill-opacity:1"
+       id="rect859"
+       width="120"
+       height="80"
+       x="530"
+       y="370" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="545"
+       y="400"
+       id="text863"><tspan
+         sodipodi:role="line"
+         id="tspan861"
+         x="545"
+         y="400">Manipulation</tspan><tspan
+         sodipodi:role="line"
+         x="545"
+         y="417.5"
+         id="tspan863">Node</tspan></text>
+
+    <!-- Topic Connection Arrows -->
+    <path
+       style="fill:none;stroke:#0066cc;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 270,190 C 320,220 350,250 400,270"
+       id="path865"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="300"
+       y="210"
+       id="text869"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="300"
+         y="210">cmd_vel (Topic)</tspan></text>
+
+    <path
+       style="fill:none;stroke:#66cc00;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 270,390 C 320,360 350,330 400,310"
+       id="path871"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="290"
+       y="350"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="290"
+         y="350">sensor_data (Topic)</tspan></text>
+
+    <path
+       style="fill:none;stroke:#0066cc;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 530,190 C 480,220 450,250 400,270"
+       id="path877"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="450"
+       y="230"
+       id="text881"><tspan
+         sodipodi:role="line"
+         id="tspan879"
+         x="450"
+         y="230">navigation_goal (Topic)</tspan></text>
+
+    <path
+       style="fill:none;stroke:#cc0066;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 530,410 C 480,380 450,350 400,330"
+       id="path883"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="430"
+       y="360"
+       id="text887"><tspan
+         sodipodi:role="line"
+         id="tspan885"
+         x="430"
+         y="360">manipulation_cmd (Topic)</tspan></text>
+
+    <!-- Service Connection -->
+    <path
+       style="fill:none;stroke:#9900cc;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 300,230 C 350,240 370,250 400,270"
+       id="path889"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="320"
+       y="250"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="320"
+         y="250">get_map (Service)</tspan></text>
+
+    <!-- Action Connection -->
+    <path
+       style="fill:none;stroke:#cc9900;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 500,330 C 470,320 430,310 400,310"
+       id="path895"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="420"
+       y="320"
+       id="text899"><tspan
+         sodipodi:role="line"
+         id="tspan897"
+         x="420"
+         y="320">move_to_goal (Action)</tspan></text>
+
+    <!-- Legend -->
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;fill-opacity:0.8"
+       id="rect901"
+       width="200"
+       height="140"
+       x="550"
+       y="480" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="560"
+       y="500"
+       id="text905"><tspan
+         sodipodi:role="line"
+         id="tspan903"
+         x="560"
+         y="500">Communication Types:</tspan><tspan
+         sodipodi:role="line"
+         x="560"
+         y="517.5"
+         id="tspan905"><tspan
+           style="fill:#0066cc"
+           id="tspan907">●</tspan> Topics (Pub/Sub)</tspan><tspan
+         sodipodi:role="line"
+         x="560"
+         y="535"
+         id="tspan909"><tspan
+           style="fill:#9900cc"
+           id="tspan911">●</tspan> Services (Req/Resp)</tspan><tspan
+         sodipodi:role="line"
+         x="560"
+         y="552.5"
+         id="tspan913"><tspan
+           style="fill:#cc9900"
+           id="tspan915">●</tspan> Actions (Goal/Feedback/Result)</tspan><tspan
+         sodipodi:role="line"
+         x="560"
+         y="570"
+         id="tspan917"><tspan
+           style="fill:#e6f3ff"
+           id="tspan919">●</tspan> DDS Middleware</tspan></text>
+
+    <!-- Arrowhead Marker Definition -->
+    <defs
+       id="defs925">
+      <marker
+         style="overflow:visible;"
+         id="Arrowhead"
+         refX="0.0"
+         refY="0.0"
+         orient="auto"
+         inkscape:stockid="Arrowhead"
+         inkscape:isstock="true">
+        <path
+           transform="scale(0.8) rotate(180) translate(12.5,0)"
+           style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+           d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+           id="path923" />
+      </marker>
+    </defs>
+  </g>
+</svg>

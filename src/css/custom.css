@@ -1,0 +1,142 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Custom CSS for Physical AI & Humanoid Robotics Textbook */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  
+  /* Accessibility: Ensure sufficient contrast for WCAG 2.1 AA compliance */
+  --ifm-color-emphasis-0: #000000;
+  --ifm-color-emphasis-100: #1c1e21;
+  --ifm-color-emphasis-200: #343a40;
+  --ifm-color-emphasis-300: #495057;
+  --ifm-color-emphasis-400: #6c757d;
+  --ifm-color-emphasis-600: #868e96;
+  --ifm-color-emphasis-700: #adb5bd;
+  --ifm-color-emphasis-800: #ced4da;
+  --ifm-color-emphasis-900: #dee2e6;
+  --ifm-color-emphasis-1000: #f8f9fa;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  
+  /* Dark mode accessibility */
+  --ifm-color-emphasis-0: #ffffff;
+  --ifm-color-emphasis-100: #f8f9fa;
+  --ifm-color-emphasis-200: #e9ecef;
+  --ifm-color-emphasis-300: #dee2e6;
+  --ifm-color-emphasis-400: #ced4da;
+  --ifm-color-emphasis-600: #868e96;
+  --ifm-color-emphasis-700: #495057;
+  --ifm-color-emphasis-800: #343a40;
+  --ifm-color-emphasis-900: #212529;
+  --ifm-color-emphasis-1000: #000000;
+}
+
+/* Ensure responsive design works on 320px to 1920px width screens */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for textbook content */
+.chapter-objectives {
+  background-color: #f8f9fa;
+  border-left: 4px solid #2e8555;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.learning-outcome {
+  background-color: #e7f3ff;
+  border: 1px solid #a3cfff;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.code-example {
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.diagram-container {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+/* Accessibility enhancements */
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Keyboard navigation focus indicators */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Adjust font sizes for accessibility */
+body {
+  font-size: 16px; /* Base font size for accessibility */
+}
+
+/* Responsive adjustments */
+@media (max-width: 360px) {
+  .hero__title {
+    font-size: 1.75rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1800px;
+  }
+}

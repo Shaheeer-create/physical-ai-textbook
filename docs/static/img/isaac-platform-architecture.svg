@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-02-20)"
+   sodipodi:docname="isaac-platform-overview.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrowhead"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrowhead"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path851" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>NVIDIA Isaac Platform Architecture</dc:title>
+        <dc:description>Diagram showing the architecture of the NVIDIA Isaac platform with Isaac Sim, Isaac ROS, and hardware integration</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Background -->
+    <rect
+       style="fill:#f8f8f8;stroke:none;stroke-width:1;fill-opacity:1"
+       id="rect833"
+       width="800"
+       height="600"
+       x="0"
+       y="0" />
+
+    <!-- Isaac Platform Container -->
+    <rect
+       style="fill:#e6f7ff;stroke:#0066cc;stroke-width:3;fill-opacity:1"
+       id="rect835"
+       width="700"
+       height="500"
+       x="50"
+       y="50" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:bold;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="320"
+       y="85"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="320"
+         y="85">NVIDIA Isaac Platform</tspan></text>
+
+    <!-- Isaac Sim Box -->
+    <rect
+       style="fill:#cceeff;stroke:#0066cc;stroke-width:2;fill-opacity:1"
+       id="rect841"
+       width="250"
+       height="150"
+       x="100"
+       y="120" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="140"
+       y="150"
+       id="text845"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="140"
+         y="150">Isaac Sim</tspan><tspan
+         sodipodi:role="line"
+         x="140"
+         y="170"
+         id="tspan845">(Simulation)</tspan></text>
+    
+    <!-- Isaac Sim Components -->
+    <rect
+       style="fill:#e0f4ff;stroke:#0052a3;stroke-width:1;fill-opacity:1"
+       id="rect847"
+       width="200"
+       height="40"
+       x="125"
+       y="190" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="135"
+       y="215"
+       id="text851"><tspan
+         sodipodi:role="line"
+         id="tspan849"
+         x="135"
+         y="215">Modular Robot Assets</tspan></text>
+
+    <!-- Isaac ROS Box -->
+    <rect
+       style="fill:#d9ffe6;stroke:#00cc66;stroke-width:2;fill-opacity:1"
+       id="rect853"
+       width="250"
+       height="150"
+       x="400"
+       y="120" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="440"
+       y="150"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="440"
+         y="150">Isaac ROS</tspan><tspan
+         sodipodi:role="line"
+         x="440"
+         y="170"
+         id="tspan857">(ROS 2 Packages)</tspan></text>
+    
+    <!-- Isaac ROS Components -->
+    <rect
+       style="fill:#edffe0;stroke:#00b359;stroke-width:1;fill-opacity:1"
+       id="rect859"
+       width="200"
+       height="40"
+       x="425"
+       y="190" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="435"
+       y="215"
+       id="text863"><tspan
+         sodipodi:role="line"
+         id="tspan861"
+         x="435"
+         y="215">AI Perception &amp; Control</tspan></text>
+
+    <!-- Isaac Labs Box -->
+    <rect
+       style="fill:#f0e6ff;stroke:#9933cc;stroke-width:2;fill-opacity:1"
+       id="rect865"
+       width="250"
+       height="120"
+       x="100"
+       y="290" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="145"
+       y="320"
+       id="text869"><tspan
+         sodipodi:role="line"
+         id="tspan867"
+         x="145"
+         y="320">Isaac Labs</tspan><tspan
+         sodipodi:role="line"
+         x="145"
+         y="340"
+         id="tspan869">(Reference Apps)</tspan></text>
+    
+    <!-- Isaac Labs Components -->
+    <rect
+       style="fill:#f2e6ff;stroke:#802bb1;stroke-width:1;fill-opacity:1"
+       id="rect871"
+       width="200"
+       height="40"
+       x="125"
+       y="360" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="135"
+       y="385"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="135"
+         y="385">Grasping, Navigation, etc.</tspan></text>
+
+    <!-- Hardware Acceleration Box -->
+    <rect
+       style="fill:#fff0e6;stroke:#ff9900;stroke-width:2;fill-opacity:1"
+       id="rect877"
+       width="250"
+       height="120"
+       x="400"
+       y="290" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="440"
+       y="320"
+       id="text881"><tspan
+         sodipodi:role="line"
+         id="tspan879"
+         x="440"
+         y="320">Hardware</tspan><tspan
+         sodipodi:role="line"
+         x="440"
+         y="340"
+         id="tspan881">(Jetson, GPUs)</tspan></text>
+    
+    <!-- Hardware Components -->
+    <rect
+       style="fill:#fff5e6;stroke:#e68a00;stroke-width:1;fill-opacity:1"
+       id="rect883"
+       width="200"
+       height="40"
+       x="425"
+       y="360" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="435"
+       y="385"
+       id="text887"><tspan
+         sodipodi:role="line"
+         id="tspan885"
+         x="435"
+         y="385">CUDA, TensorRT, RTX</tspan></text>
+
+    <!-- Data Flow Arrows -->
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 350,190 C 370,190 380,190 400,190"
+       id="path889"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="350"
+       y="170"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="350"
+         y="170">Simulation</tspan><tspan
+         sodipodi:role="line"
+         x="350"
+         y="185"
+         id="tspan893">Data</tspan></text>
+
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 225,270 C 225,280 225,290 225,300"
+       id="path895"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="240"
+       y="285"
+       id="text899"><tspan
+         sodipodi:role="line"
+         id="tspan897"
+         x="240"
+         y="285">Reference</tspan><tspan
+         sodipodi:role="line"
+         x="240"
+         y="300"
+         id="tspan899">Apps</tspan></text>
+
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 525,270 C 525,280 525,290 525,300"
+       id="path901"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="540"
+       y="285"
+       id="text905"><tspan
+         sodipodi:role="line"
+         id="tspan903"
+         x="540"
+         y="285">Hardware</tspan><tspan
+         sodipodi:role="line"
+         x="540"
+         y="300"
+         id="tspan905">Acceleration</tspan></text>
+
+    <!-- ROS Connection -->
+    <path
+       style="fill:none;stroke:#6600cc;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 525,190 C 525,220 525,240 525,260"
+       id="path907"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6600cc;fill-opacity:1;stroke:none"
+       x="540"
+       y="220"
+       id="text911"><tspan
+         sodipodi:role="line"
+         id="tspan909"
+         x="540"
+         y="220">ROS 2 Interface</tspan></text>
+
+    <!-- Example Robot Applications -->
+    <rect
+       style="fill:#ffe6f2;stroke:#cc0066;stroke-width:2;fill-opacity:1"
+       id="rect913"
+       width="400"
+       height="100"
+       x="200"
+       y="430" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:bold;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="300"
+       y="460"
+       id="text917"><tspan
+         sodipodi:role="line"
+         id="tspan915"
+         x="300"
+         y="460">Robot Applications</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="220"
+       y="490"
+       id="text921"><tspan
+         sodipodi:role="line"
+         id="tspan919"
+         x="220"
+         y="490">Mobile Manipulation, Grasping, Navigation, etc.</tspan></text>
+
+    <!-- Connection to Applications -->
+    <path
+       style="fill:none;stroke:#cc0066;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 300,310 C 300,360 300,400 300,430"
+       id="path923"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#cc0066;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrowhead)"
+       d="M 500,310 C 500,360 500,400 500,430"
+       id="path925"
+       sodipodi:nodetypes="cc" />
+
+    <!-- Legend -->
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;fill-opacity:0.8"
+       id="rect927"
+       width="200"
+       height="120"
+       x="580"
+       y="480" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="590"
+       y="500"
+       id="text931"><tspan
+         sodipodi:role="line"
+         id="tspan929"
+         x="590"
+         y="500">Legend:</tspan><tspan
+         sodipodi:role="line"
+         x="590"
+         y="520"
+         id="tspan931"><tspan
+           style="fill:#cceeff;stroke:#0066cc"
+           id="tspan933">●</tspan> Isaac Sim (Simulation)</tspan><tspan
+         sodipodi:role="line"
+         x="590"
+         y="540"
+         id="tspan935"><tspan
+           style="fill:#d9ffe6;stroke:#00cc66"
+           id="tspan937">●</tspan> Isaac ROS (Integration)</tspan><tspan
+         sodipodi:role="line"
+         x="590"
+         y="560"
+         id="tspan939"><tspan
+           style="fill:#fff0e6;stroke:#ff9900"
+           id="tspan941">●</tspan> Hardware Accel.</tspan><tspan
+         sodipodi:role="line"
+         x="590"
+         y="580"
+         id="tspan943"><tspan
+           style="fill:#f0e6ff;stroke:#9933cc"
+           id="tspan945">●</tspan> Isaac Labs (Apps)</tspan></text>
+  </g>
+</svg>
