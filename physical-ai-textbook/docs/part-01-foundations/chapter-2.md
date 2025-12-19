@@ -22,12 +22,7 @@ Robots rely on various sensors to perceive their environment and interact with i
 ### Technical Diagrams
 
 
-<img
-  src="/img/robot-sensorium.svg"
-  alt="Physical AI diagram"
-  width={600}
-  height={400}
-/>
+![Robot Sensorium diagram](/img/robot-sensorium.svg)
 
 > **Figure 1**: Robot Sensorium Overview. This diagram illustrates the placement of various sensors on a humanoid robot. Cameras are positioned for vision, LiDAR sensors provide range information, an IMU measures orientation, force/torque sensors are located in joints, and tactile sensors are placed on fingertips for dexterous manipulation.
 

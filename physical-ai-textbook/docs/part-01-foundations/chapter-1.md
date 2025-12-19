@@ -22,12 +22,7 @@ Physical AI refers to the integration of artificial intelligence with physical s
 ### Technical Diagrams
 
 
-<img
-  src="/img/physical-ai-concept.svg"
-  alt="Physical AI diagram"
-  width={600}
-  height={400}
-/>
+![Physical AI diagram](/img/physical-ai-concept.svg)
 
 > **Figure 1**: Physical AI Concept. This diagram illustrates Physical AI as the integration point between digital AI algorithms and physical robot systems. The diagram shows how sensor inputs (vision, touch, proprioception) flow into AI processing units, which generate commands for actuators (motors, grippers, etc.). The bidirectional arrows indicate the continuous cycle of perception, decision-making, and action.
 
